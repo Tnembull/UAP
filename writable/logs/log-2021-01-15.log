@@ -1,0 +1,33 @@
+CRITICAL - 2021-01-15 10:30:22 --> Undefined index: namalengkap
+#0 C:\laragon\www\tubesweblanjut\app\Views\lihatprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\tubesweblanjut\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('lihatprofile', Array, true)
+#3 C:\laragon\www\tubesweblanjut\app\Controllers\Auth.php(44): view('lihatprofile', Array)
+#4 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Auth->lihatprofile()
+#5 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-01-15 10:30:47 --> Undefined index: namalengkap
+#0 C:\laragon\www\tubesweblanjut\app\Views\lihatprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\tubesweblanjut\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('lihatprofile', Array, true)
+#3 C:\laragon\www\tubesweblanjut\app\Controllers\Auth.php(44): view('lihatprofile', Array)
+#4 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Auth->lihatprofile()
+#5 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\laragon\\www\\...')
+#9 {main}
+CRITICAL - 2021-01-15 10:30:50 --> Undefined index: namalengkap
+#0 C:\laragon\www\tubesweblanjut\app\Views\lihatprofile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 21, Array)
+#1 C:\laragon\www\tubesweblanjut\system\View\View.php(246): include('C:\\laragon\\www\\...')
+#2 C:\laragon\www\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('lihatprofile', Array, true)
+#3 C:\laragon\www\tubesweblanjut\app\Controllers\Auth.php(44): view('lihatprofile', Array)
+#4 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Auth->lihatprofile()
+#5 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\laragon\www\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\laragon\www\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\laragon\\www\\...')
+#9 {main}

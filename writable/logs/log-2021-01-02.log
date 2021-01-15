@@ -1,0 +1,10 @@
+CRITICAL - 2021-01-02 02:28:36 --> Invalid file: about.php
+#0 D:\Program Files\xampp\htdocs\E-Auction\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about.php')
+#1 D:\Program Files\xampp\htdocs\E-Auction\system\Common.php(1119): CodeIgniter\View\View->render('about', Array, true)
+#2 D:\Program Files\xampp\htdocs\E-Auction\app\Controllers\Home.php(25): view('about')
+#3 D:\Program Files\xampp\htdocs\E-Auction\system\CodeIgniter.php(918): App\Controllers\Home->about()
+#4 D:\Program Files\xampp\htdocs\E-Auction\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Program Files\xampp\htdocs\E-Auction\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\xampp\htdocs\E-Auction\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\Program Files\xampp\htdocs\E-Auction\system\Commands\Server\rewrite.php(34): require_once('D:\\Program File...')
+#8 {main}

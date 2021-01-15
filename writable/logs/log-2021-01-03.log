@@ -1,0 +1,56 @@
+CRITICAL - 2021-01-03 06:11:01 --> Invalid file: layout/keranjang.php
+#0 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/keranjan...')
+#1 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(525): CodeIgniter\View\View->render('layout/keranjan...', NULL, true)
+#2 C:\xampp\htdocs\tubesweblanjut\app\Views\layout\page_layout.php(7): CodeIgniter\View\View->include('layout/keranjan...')
+#3 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(257): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#5 C:\xampp\htdocs\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('keranjang', Array, true)
+#6 C:\xampp\htdocs\tubesweblanjut\app\Controllers\Home.php(29): view('keranjang')
+#7 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Home->keranjang()
+#8 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-01-03 06:11:38 --> Invalid file: keranjang/page_layout.php
+#0 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keranjang/page_...')
+#1 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(257): CodeIgniter\View\View->render('keranjang/page_...', Array, true)
+#2 C:\xampp\htdocs\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('keranjang', Array, true)
+#3 C:\xampp\htdocs\tubesweblanjut\app\Controllers\Home.php(29): view('keranjang')
+#4 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Home->keranjang()
+#5 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-03 06:12:19 --> Invalid file: keranjang/page_layout.php
+#0 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keranjang/page_...')
+#1 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(257): CodeIgniter\View\View->render('keranjang/page_...', Array, true)
+#2 C:\xampp\htdocs\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('keranjang', Array, true)
+#3 C:\xampp\htdocs\tubesweblanjut\app\Controllers\Home.php(29): view('keranjang')
+#4 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Home->keranjang()
+#5 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-01-03 10:05:06 --> Invalid file: checkout.php
+#0 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout.php')
+#1 C:\xampp\htdocs\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#2 C:\xampp\htdocs\tubesweblanjut\app\Controllers\Home.php(41): view('checkout')
+#3 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Home->checkout()
+#4 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-01-03 10:07:30 --> Invalid file: checkout.php
+#0 C:\xampp\htdocs\tubesweblanjut\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('checkout.php')
+#1 C:\xampp\htdocs\tubesweblanjut\system\Common.php(1119): CodeIgniter\View\View->render('checkout', Array, true)
+#2 C:\xampp\htdocs\tubesweblanjut\app\Controllers\Home.php(41): view('checkout')
+#3 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(918): App\Controllers\Home->checkout()
+#4 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\tubesweblanjut\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tubesweblanjut\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\tubesweblanjut\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
